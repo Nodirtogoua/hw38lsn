@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: #94E19A;
+}
+
+.dark {
+    background: #fff;
+    color: #000;
+}
+
+.main {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.input {
+    overflow-y: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;  
+    font-size: 25px;
+    font-weight: 600;
+    width: 248px;
+    height: 120px;
+    background-color: #fff;
+    margin: 20px auto auto auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.btns {
+    margin-top: -7px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #D7FFF1;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+
+.btns button {
+    width: 55px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.btns button:hover {
+    background: rgb(90, 184, 137, .3);
+    color: #72e478;
+}
+
+.num {
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.amallar{
+    color: #8CD790;
+    font-size: 22px;
+    font-weight: 600;
+}
+.delete{
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.teng{
+    width: 45px !important;
+    height: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #8CD790 !important;
+    color: #fff;
+}
+.teng:hover{
+    background-color: #72e478 !important;
+    color: #fff !important;
+}
+.num:hover{
+    color: #000 !important;
+}
+.delete:hover{
+    color: #000 !important;
+}
