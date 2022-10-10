@@ -38,6 +38,9 @@ for (i of btns) {
         else if (event.target.innerHTML === "*") {
             input.innerHTML = eval(input.innerHTML) + "*";
         }
+        else if (event.target.innerHTML === "**") {
+            input.innerHTML = eval(input.innerHTML) + "**";
+        }
         else if (event.target.innerHTML === "%") {
             input.innerHTML = eval(input.innerHTML) + "%";
         }
