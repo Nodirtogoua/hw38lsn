@@ -26,6 +26,21 @@ for (i of btns) {
             console.log(eval(input.innerHTML));
             input.innerHTML = eval(input.innerHTML);
         }
+        else if (event.target.innerHTML === "+") {
+            input.innerHTML = eval(input.innerHTML) + "+";
+        }
+        else if (event.target.innerHTML === "-") {
+            input.innerHTML = eval(input.innerHTML) + "-";
+        }
+        else if (event.target.innerHTML === "/") {
+            input.innerHTML = eval(input.innerHTML) + "/";
+        }
+        else if (event.target.innerHTML === "*") {
+            input.innerHTML = eval(input.innerHTML) + "*";
+        }
+        else if (event.target.innerHTML === "%") {
+            input.innerHTML = eval(input.innerHTML) + "%";
+        }
         else {
             input.innerHTML = input.innerHTML.split("")[0] == "0" ?
                 input.innerHTML.split("").slice(1, input.innerHTML.split("").length).join("") : input.innerHTML
@@ -33,10 +48,3 @@ for (i of btns) {
         }
     })
 }
-
-// for (index of amallar) {
-//     index.addEventListener("click", (e) => {
-//         input.innerHTML = input.innerHTML.split("")[e] == "+" ?
-//             input.innerHTML.split("").slice(1, input.innerHTML.split("").length).join("") : input.innerHTML
-//         input.textContent = e.target.innerHTML;
-//     })
